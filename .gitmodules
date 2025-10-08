@@ -1,6 +1,6 @@
 [submodule "SkillXChange-Backend"]
 	path = SkillXChange-Backend
-	url = git@github.com:lakshya-26/SkillXChange-Backend.git
+	url = https://github.com/lakshya-26/SkillXChange-Backend.git
 [submodule "SkillXChange-Frontend"]
 	path = SkillXChange-Frontend
-	url = git@github.com:lakshya-26/SkillXChange-Frontend.git
+	url = https://github.com/lakshya-26/SkillXChange-Frontend.git
