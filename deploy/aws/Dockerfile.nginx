@@ -23,7 +23,8 @@ ENV VITE_FIREBASE_MESSAGING_SENDER_ID=$VITE_FIREBASE_MESSAGING_SENDER_ID
 ENV VITE_FIREBASE_APP_ID=$VITE_FIREBASE_APP_ID
 
 COPY SkillXChange-Frontend/package*.json ./
-RUN npm ci
+# package-lock.json is gitignored in SkillXChange-Frontend; npm ci requires a lockfile.
+RUN npm install
 
 COPY SkillXChange-Frontend/ ./
 RUN npm run build

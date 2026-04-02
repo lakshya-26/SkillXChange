@@ -3,7 +3,7 @@ FROM node:20-bookworm-slim
 WORKDIR /app
 
 COPY SkillXChange-Backend/SkillXChange-Communication-Service/package*.json ./
-RUN npm ci
+RUN npm install
 
 COPY SkillXChange-Backend/SkillXChange-Communication-Service/ ./
 RUN npx prisma generate
