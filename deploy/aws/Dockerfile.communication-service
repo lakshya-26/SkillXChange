@@ -1,0 +1,13 @@
+FROM node:20-bookworm-slim
+
+WORKDIR /app
+
+COPY SkillXChange-Backend/SkillXChange-Communication-Service/package*.json ./
+RUN npm ci
+
+COPY SkillXChange-Backend/SkillXChange-Communication-Service/ ./
+RUN npx prisma generate
+
+ENV NODE_ENV=production
+
+CMD ["sh", "-c", "npx prisma migrate deploy && node index.js"]
