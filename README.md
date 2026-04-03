@@ -169,46 +169,6 @@ For an **all-in-one** production-shaped stack, see `deploy/aws/docker-compose.ym
 
 ---
 
-## Suggested GitHub repository topics
-
-Copy into **Repository → About → Topics** to improve discoverability:
-
-```
-skill-exchange
-peer-learning
-social-learning
-edtech
-full-stack
-react
-typescript
-vite
-tailwindcss
-nodejs
-express
-microservices
-rest-api
-postgresql
-prisma
-redis
-socket-io
-real-time-chat
-jwt
-oauth
-google-oauth
-docker
-nginx
-aws
-pwa
-```
-
----
-
 ## Author
 
 **Lakshya Kumar Singh** — product and engineering focused on **community-driven learning** and **ethical, transparent matching** (not paywalled content as the default).
-
----
-
-## License
-
-Specify in-repo if you add a `LICENSE` file; subpackages currently list their own `license` fields in `package.json` where present.
