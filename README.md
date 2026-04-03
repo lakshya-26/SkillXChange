@@ -203,12 +203,6 @@ pwa
 
 ---
 
-## Project description (short — for GitHub “About” or LinkedIn)
-
-> **Skill X Change** — Full-stack web app for skill-for-skill learning: profiles with teach/learn tags, SQL-scored peer matching with Redis caching, REST APIs, real-time chat via Socket.IO, and session scheduling. React (TypeScript) + Node.js microservices + PostgreSQL + Prisma + Docker deploy path.
-
----
-
 ## Author
 
 **Lakshya Kumar Singh** — product and engineering focused on **community-driven learning** and **ethical, transparent matching** (not paywalled content as the default).
